@@ -3,7 +3,7 @@ cask "tailflow" do
   name "tailflow"
   desc "TailFlow workflow engine"
   homepage "https://github.com/tailflowio/tailflow-agent"
-  version "2026.9.7"
+  version "2026.10.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "tailflow" do
     on_intel do
       url "https://github.com/tailflowio/tailflow-agent/releases/download/#{version}/tailflow-agent_darwin_amd64.tar.gz",
         verified: "github.com/tailflowio/tailflow-agent"
-      sha256 "b858c59f12fccfc32af948097b8a0fd8d80612d10d7e7ef1c44c56e4d0a4d61a"
+      sha256 "45db5bd6abcbb7826334b2fa2116550778cf118f495b28f78435654b1c23b472"
     end
     on_arm do
       url "https://github.com/tailflowio/tailflow-agent/releases/download/#{version}/tailflow-agent_darwin_arm64.tar.gz",
         verified: "github.com/tailflowio/tailflow-agent"
-      sha256 "b28e76ca0335cc58418d870be9f6b18dca3236a6692c5f64b9758305b2ecc8ba"
+      sha256 "2a67e09ce7a5e5efa1d7bbf11c78b13b20ac623c85ee4cddb2dc445469be2fb1"
     end
   end
 
@@ -28,12 +28,12 @@ cask "tailflow" do
     on_intel do
       url "https://github.com/tailflowio/tailflow-agent/releases/download/#{version}/tailflow-agent_linux_amd64.tar.gz",
         verified: "github.com/tailflowio/tailflow-agent"
-      sha256 "2671ad18b2127d85cefc11efe20720fdc9c6273089167d648aa9d0ba2c1a72d8"
+      sha256 "e401b1c944ba821f99ab44da3f918aa2a5c632fbce99822df603fe4a969974af"
     end
     on_arm do
       url "https://github.com/tailflowio/tailflow-agent/releases/download/#{version}/tailflow-agent_linux_arm64.tar.gz",
         verified: "github.com/tailflowio/tailflow-agent"
-      sha256 "373e4637f75faba3c4fbd82ba0cc51852a08d71b647afba6b4d3061ca5cdcee2"
+      sha256 "9e45d73befb96888d342cd811b2903fe1822a6da01f5fdb5e029dec7f93e111f"
     end
   end
 
